@@ -87,7 +87,7 @@ SELECT id_servico, nome, status FROM servicos;
 -- Script 10: DELETE
 -- Apaga o pagamento 8, que está pendente.
 
-SELECT * FROM pagamentos WHERE id_pagamento = 8;
+SELECT * FROM pagamentos;
 
 DELETE FROM pagamentos
 WHERE id_pagamento = 8;
